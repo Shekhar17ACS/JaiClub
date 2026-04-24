@@ -37,45 +37,47 @@ const ScrollToTop = () => {
 };
 
 const FeatureTable = () => (
-  <div className="container">
-    <table style={{ margin: '2rem 0' }}>
-      <thead>
-        <tr>
-          <th>Feature</th>
-          <th>Details</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>App Name</td>
-          <td><a href="https://www.jaiclub41.com/#/register?invitationCode=57233103761" style={{ color: 'var(--text-blue)', fontWeight: 'bold' }}>Jai Club</a></td>
-        </tr>
-        <tr>
-          <td>Latest Version</td>
-          <td>1.1</td>
-        </tr>
-        <tr>
-          <td>Platform Type</td>
-          <td>Color Prediction, Jili, Limbo, and Aviator</td>
-        </tr>
-        <tr>
-          <td>App Size</td>
-          <td>12MB</td>
-        </tr>
-        <tr>
-          <td>Official Website</td>
-          <td>https://jaiclub0.club/</td>
-        </tr>
-        <tr>
-          <td>Referral Code</td>
-          <td><strong>57233103761</strong></td>
-        </tr>
-        <tr>
-          <td>Welcome Bonus</td>
-          <td>Up to ₹100</td>
-        </tr>
-      </tbody>
-    </table>
+  <div className="container" style={{ padding: '0' }}>
+    <div className="table-responsive">
+      <table style={{ margin: '1rem 0' }}>
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>App Name</td>
+            <td><a href="https://www.jaiclub41.com/#/register?invitationCode=57233103761" style={{ color: 'var(--text-blue)', fontWeight: 'bold' }}>Jai Club</a></td>
+          </tr>
+          <tr>
+            <td>Latest Version</td>
+            <td>1.1</td>
+          </tr>
+          <tr>
+            <td>Platform Type</td>
+            <td>Color Prediction, Jili, Limbo, and Aviator</td>
+          </tr>
+          <tr>
+            <td>App Size</td>
+            <td>12MB</td>
+          </tr>
+          <tr>
+            <td>Official Website</td>
+            <td>https://jaiclub0.club/</td>
+          </tr>
+          <tr>
+            <td>Referral Code</td>
+            <td><strong>57233103761</strong></td>
+          </tr>
+          <tr>
+            <td>Welcome Bonus</td>
+            <td>Up to ₹100</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 );
 
@@ -94,8 +96,9 @@ const GameCategories = () => {
       <div style={{ textAlign: 'center', margin: '2rem 0' }}>
         <img
           src={gamesOverview}
+          className="img-fluid"
           alt="Jai Club Games"
-          style={{ width: '394px', borderRadius: '30px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}
+          style={{ borderRadius: '30px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}
         />
       </div>
 
@@ -126,7 +129,7 @@ const SalarySystem = () => (
     <div className="gradient-banner">Permanent Salary System for Jai Club Agents</div>
     <p>Jai Club features a dedicated rewards program for active agents, offering daily incentives based on the collective deposit performance of their group. As your team grows and deposit activity increases, you can unlock higher daily benefits, creating a consistent earning stream.</p>
     <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-      <img src={salaryProof} alt="Salary Proof" style={{ width: '436px', borderRadius: '20px' }} />
+      <img src={salaryProof} className="img-fluid" alt="Salary Proof" style={{ borderRadius: '20px' }} />
     </div>
 
     <div style={{
@@ -140,32 +143,34 @@ const SalarySystem = () => (
     }}>
       Daily Salary System
     </div>
-    <table>
-      <thead>
-        <tr>
-          <th>Team Members</th>
-          <th>Minimum Team Deposit Amount</th>
-          <th>Daily Salary Amount</th>
-        </tr>
-      </thead>
-      <tbody>
-        {[
-          ["10", "₹5,000", "₹600"],
-          ["25", "₹10,000", "₹1,300"],
-          ["40", "₹20,000", "₹2,500"],
-          ["60", "₹35,000", "₹4,000"],
-          ["80", "₹60,000", "₹6,000"],
-          ["100", "₹80,000", "₹8,000"],
-          ["150", "₹1,30,000", "₹13,000"],
-          ["200", "₹2,20,000", "₹20,000"],
-          ["500", "₹5,00,000", "₹50,000"]
-        ].map((row, i) => (
-          <tr key={i}>
-            {row.map((cell, j) => <td key={j}>{cell}</td>)}
+    <div className="table-responsive">
+      <table>
+        <thead>
+          <tr>
+            <th>Team Members</th>
+            <th>Minimum Team Deposit Amount</th>
+            <th>Daily Salary Amount</th>
           </tr>
-        ))}
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+          {[
+            ["10", "₹5,000", "₹600"],
+            ["25", "₹10,000", "₹1,300"],
+            ["40", "₹20,000", "₹2,500"],
+            ["60", "₹35,000", "₹4,000"],
+            ["80", "₹60,000", "₹6,000"],
+            ["100", "₹80,000", "₹8,000"],
+            ["150", "₹1,30,000", "₹13,000"],
+            ["200", "₹2,20,000", "₹20,000"],
+            ["500", "₹5,00,000", "₹50,000"]
+          ].map((row, i) => (
+            <tr key={i}>
+              {row.map((cell, j) => <td key={j}>{cell}</td>)}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
     <p style={{ marginTop: '20px' }}>This incentive structure is built to appreciate agents who prioritize team expansion and sustain high engagement levels. It serves as an effective method for generating steady daily income as you broaden your Jai Club circle.</p>
   </section>
 );
@@ -175,38 +180,40 @@ const InviteBonus = () => (
     <div className="gradient-banner">Daily Bonus – Invite Members & Earn More</div>
     <p>Broaden your network by inviting new participants and unlock meaningful daily bonus milestones. Higher recruitment and increased deposit activity directly translate into greater bonus potential for you.</p>
     <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-      <img src={inviteBonus} alt="Invite Bonus" style={{ width: '397px', borderRadius: '20px' }} />
+      <img src={inviteBonus} className="img-fluid" alt="Invite Bonus" style={{ borderRadius: '20px' }} />
     </div>
     <div className="gradient-banner" id="Invite_Bonus_Structure">Invite Bonus Structure</div>
-    <table>
-      <thead>
-        <tr>
-          <th>Invite Accounts</th>
-          <th>Required Deposit</th>
-          <th>Bonus Reward</th>
-        </tr>
-      </thead>
-      <tbody>
-        {[
-          ["1 Person", "₹300", "₹38"],
-          ["3 People", "₹300", "₹158"],
-          ["10 People", "₹500", "₹580"],
-          ["30 People", "₹800", "₹1,800"],
-          ["50 People", "₹1,200", "₹2,800"],
-          ["75 People", "₹1,200", "₹4,500"],
-          ["100 People", "₹1,200", "₹5,800"],
-          ["200 People", "₹1,200", "₹11,800"],
-          ["500 People", "₹1,200", "₹29,000"],
-          ["1000 People", "₹1,200", "₹58,000"],
-          ["2000 People", "₹1,200", "₹1,18,000"],
-          ["5000 People", "₹1,200", "₹3,00,000"]
-        ].map((row, i) => (
-          <tr key={i}>
-            {row.map((cell, j) => <td key={j}>{cell}</td>)}
+    <div className="table-responsive">
+      <table>
+        <thead>
+          <tr>
+            <th>Invite Accounts</th>
+            <th>Required Deposit</th>
+            <th>Bonus Reward</th>
           </tr>
-        ))}
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+          {[
+            ["1 Person", "₹300", "₹38"],
+            ["3 People", "₹300", "₹158"],
+            ["10 People", "₹500", "₹580"],
+            ["30 People", "₹800", "₹1,800"],
+            ["50 People", "₹1,200", "₹2,800"],
+            ["75 People", "₹1,200", "₹4,500"],
+            ["100 People", "₹1,200", "₹5,800"],
+            ["200 People", "₹1,200", "₹11,800"],
+            ["500 People", "₹1,200", "₹29,000"],
+            ["1000 People", "₹1,200", "₹58,000"],
+            ["2000 People", "₹1,200", "₹1,18,000"],
+            ["5000 People", "₹1,200", "₹3,00,000"]
+          ].map((row, i) => (
+            <tr key={i}>
+              {row.map((cell, j) => <td key={j}>{cell}</td>)}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
     <p style={{ marginTop: '20px' }}>This rewards framework acknowledges the efforts of active agents who consistently bring in new users and support them in meeting deposit goals. Strengthen your team and watch your daily earnings rise.</p>
   </section>
 );
@@ -227,7 +234,7 @@ const Support = () => (
     </ul>
 
     <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-      <img src={supportSelfService} alt="Self Service Center" style={{ width: '450px', borderRadius: '4px' }} />
+      <img src={supportSelfService} className="img-fluid" alt="Self Service Center" style={{ borderRadius: '4px' }} />
     </div>
 
     <ul style={{ listStyle: 'disc', paddingLeft: '20px' }}>
@@ -239,7 +246,7 @@ const Support = () => (
     <p>Provide the necessary details regarding your issue. After your submission is reviewed, check under [Question in progress] to track the status of your reported case.</p>
 
     <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-      <img src={customerCareRep} alt="Customer Care" style={{ width: '383px', borderRadius: '20px' }} />
+      <img src={customerCareRep} className="img-fluid" alt="Customer Care" style={{ borderRadius: '20px' }} />
     </div>
   </section>
 );
@@ -275,8 +282,9 @@ function App() {
               <div style={{ textAlign: 'center', margin: '2rem 0' }}>
                 <img
                   src={appLogo}
+                  className="img-fluid"
                   alt="Jai Club Logo"
-                  style={{ width: '222px', borderRadius: '20px' }}
+                  style={{ borderRadius: '20px' }}
                 />
               </div>
               <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
@@ -298,8 +306,9 @@ function App() {
               <div style={{ textAlign: 'center', margin: '2rem 0' }}>
                 <img
                   src={appInterface}
+                  className="img-fluid"
                   alt="Jai Club App Interface"
-                  style={{ width: '331px', borderRadius: '30px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}
+                  style={{ borderRadius: '30px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}
                 />
               </div>
               <h4 id="How_Jai_Club_Platform_Works">Platform Mechanics & Workflow</h4>
@@ -323,8 +332,9 @@ function App() {
               <div style={{ textAlign: 'center', margin: '2rem 0' }}>
                 <img
                   src={registrationGuide}
+                  className="img-fluid"
                   alt="Jai Club Registration"
-                  style={{ width: '360px', borderRadius: '30px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}
+                  style={{ borderRadius: '30px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}
                 />
               </div>
               <ul>
@@ -343,8 +353,9 @@ function App() {
               <div style={{ textAlign: 'center', margin: '2rem 0' }}>
                 <img
                   src={loginGuide}
+                  className="img-fluid"
                   alt="Jai Club Login"
-                  style={{ width: '383px', borderRadius: '30px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}
+                  style={{ borderRadius: '30px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}
                 />
               </div>
               <ul>
@@ -372,8 +383,9 @@ function App() {
               <div style={{ textAlign: 'center', margin: '2rem 0' }}>
                 <img
                   src={appDownload}
+                  className="img-fluid"
                   alt="Jai Club App Download"
-                  style={{ width: '482px', borderRadius: '30px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}
+                  style={{ borderRadius: '30px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}
                 />
               </div>
             </section>
@@ -384,17 +396,17 @@ function App() {
               <div className="gradient-banner">Funding Your Jai Club Account</div>
               <p>Funding your <strong>Jai Club wallet</strong> is a secure and streamlined process, allowing you to focus on your favorite games without delay.</p>
               <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-                <img src={depositStep1} alt="Deposit" style={{ width: '337px', borderRadius: '20px' }} />
+                <img src={depositStep1} className="img-fluid" alt="Deposit" style={{ borderRadius: '20px' }} />
               </div>
               <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-                <img src={depositStep2} alt="Deposit Step 2" style={{ width: '352px', borderRadius: '20px' }} />
+                <img src={depositStep2} className="img-fluid" alt="Deposit Step 2" style={{ borderRadius: '20px' }} />
               </div>
             </section>
 
             <section className="container" id="How_to_Play_Wingo_Colour_Prediction_on_Jai_Club">
               <div className="gradient-banner">Mastering Wingo Colour Prediction</div>
               <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-                <img src={wingoGuide} alt="Wingo" style={{ width: '522px', borderRadius: '20px' }} />
+                <img src={wingoGuide} className="img-fluid" alt="Wingo" style={{ borderRadius: '20px' }} />
               </div>
             </section>
 
@@ -451,8 +463,10 @@ function App() {
 
                <div className="gradient-banner" id="Jai_Club_Withdrawal_Earning_Proof">Engagement & Payout Verification</div>
               <p>The visual evidence provided above reflects authentic user engagement and is shared to offer clarity on platform dynamics. These payment confirmations demonstrate genuine withdrawals and account updates resulting from active participation.</p>
-              <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-                <img src={earningProof} alt="Earning Proof" style={{ width: '336px', borderRadius: '20px' }} />
+               <div className="table-responsive">
+                <div style={{ textAlign: 'center', margin: '2rem 0' }}>
+                  <img src={earningProof} className="img-fluid" alt="Earning Proof" style={{ borderRadius: '20px' }} />
+                </div>
               </div>
             </section>
 
@@ -469,7 +483,7 @@ function App() {
               <div className="gradient-banner">Redeeming a Jai Club Reward Code</div>
               <p>Redeeming a <strong>gift code</strong> is an excellent way to access additional bonuses, promotional offers, and extra wallet credits on our platform.</p>
               <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-                <img src={giftCodePromo} alt="Gift Code" style={{ width: '404px', borderRadius: '20px' }} />
+                <img src={giftCodePromo} className="img-fluid" alt="Gift Code" style={{ borderRadius: '20px' }} />
               </div>
 
               <div className="gradient-banner" id="Steps_to_Redeem_Jai_Club_Gift_Code">Code Redemption Steps</div>
@@ -492,33 +506,35 @@ function App() {
               <div className="gradient-banner" id="Official_Links_List">Trusted Domain Directory</div>
               <p style={{ marginTop: '20px' }}>Use the links below for safe access. View the complete <a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)' }}>Security List</a></p>
 
-              <table style={{ marginTop: '20px' }}>
-                <thead>
-                  <tr>
-                    <th>#</th>
-                    <th>Domain</th>
-                    <th>Description</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {[
-                    ["1", "jaiclub00.com", "Main Official Domain", "Open"],
-                    ["2", "jaiclub10.com", "Main Official Domain", "Visit"],
-                    ["3", "jaiclub04.com", "Main Official Domain", "Visit"],
-                    ["4", "jaiclub01.com", "Main Official Domain", "Visit"],
-                    ["5", "jaiclub06.com", "Main Official Domain", "Visit"],
-                    ["6", "jaiclub08.com", "Main Official Domain", "Visit"]
-                  ].map((row, i) => (
-                    <tr key={i}>
-                      <td>{row[0]}</td>
-                      <td>{row[1]}</td>
-                      <td>{row[2]}</td>
-                      <td><a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)' }}>{row[3]}</a></td>
+              <div className="table-responsive">
+                <table style={{ marginTop: '20px' }}>
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Domain</th>
+                      <th>Description</th>
+                      <th>Action</th>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody>
+                    {[
+                      ["1", "jaiclub00.com", "Main Official Domain", "Open"],
+                      ["2", "jaiclub10.com", "Main Official Domain", "Visit"],
+                      ["3", "jaiclub04.com", "Main Official Domain", "Visit"],
+                      ["4", "jaiclub01.com", "Main Official Domain", "Visit"],
+                      ["5", "jaiclub06.com", "Main Official Domain", "Visit"],
+                      ["6", "jaiclub08.com", "Main Official Domain", "Visit"]
+                    ].map((row, i) => (
+                      <tr key={i}>
+                        <td>{row[0]}</td>
+                        <td>{row[1]}</td>
+                        <td>{row[2]}</td>
+                        <td><a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)' }}>{row[3]}</a></td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </section>
 
             <section className="container" id="Responsible_Gaming_on_Jai_Club">

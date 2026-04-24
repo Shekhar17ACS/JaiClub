@@ -5,9 +5,9 @@ import navbarLogo from '../assets/navbar_logo.png';
 const Hero = () => {
   return (
     <section id="hero" style={{ paddingTop: '2rem', paddingBottom: '2rem', background: '#fff' }}>
-      <div className="container" style={{ textAlign: 'left' }}>
+      <div className="container">
         <h1 style={{ 
-          fontSize: '3.5rem', 
+          fontSize: 'clamp(2rem, 8vw, 3.5rem)', 
           color: '#333', 
           marginBottom: '1.5rem',
           fontWeight: '500' 
@@ -16,7 +16,7 @@ const Hero = () => {
         </h1>
         
         <p style={{ 
-          fontSize: '1.1rem', 
+          fontSize: '1rem', 
           lineHeight: '1.6', 
           color: '#444',
           marginBottom: '2rem'
@@ -31,7 +31,7 @@ const Hero = () => {
             borderRadius: '10px',
             textAlign: 'center',
             color: 'white',
-            fontSize: '1.8rem',
+            fontSize: '1.5rem',
             fontWeight: 'bold',
             cursor: 'pointer',
             marginBottom: '2rem',
@@ -47,8 +47,9 @@ const Hero = () => {
         <div style={{ textAlign: 'center', marginTop: '1rem' }}>
           <img 
             src={navbarLogo} 
+            className="img-fluid"
             alt="Big Jai Club Logo" 
-            style={{ width: '100%', maxWidth: '500px' }}
+            style={{ maxWidth: '400px' }}
           />
         </div>
       </div>

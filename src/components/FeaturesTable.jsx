@@ -19,8 +19,8 @@ const FeaturesTable = () => {
           <div className="title-underline" style={{ margin: '0.5rem auto' }}></div>
         </div>
         
-        <div className="glass" style={{ borderRadius: '20px', overflow: 'hidden' }}>
-          <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left' }}>
+        <div className="table-responsive glass" style={{ borderRadius: '20px' }}>
+          <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', minWidth: '500px' }}>
             <thead>
               <tr style={{ background: 'var(--secondary-gradient)' }}>
                 <th style={{ padding: '1.2rem', color: 'white' }}>Feature</th>

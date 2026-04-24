@@ -34,8 +34,8 @@ const FeaturesDetailTable = () => {
         Explore this detailed resource to master the <strong><a href="https://www.jaiclub41.com/#/register?invitationCode=57233103761" style={{ color: '#2196f3', fontWeight: 'bold' }}>Jai Club login</a></strong> sequence, set up your account, and perform the <strong>app installation</strong>. We also provide insights into <strong>key platform functionalities, earning avenues, and protected withdrawal processes</strong>.
       </p>
 
-      <div style={{ border: '1px solid #aaa', borderRadius: '4px', overflow: 'hidden' }}>
-        <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left' }}>
+      <div className="table-responsive" style={{ border: '1px solid #aaa', borderRadius: '4px' }}>
+        <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', minWidth: '500px' }}>
           <thead>
             <tr style={{ background: '#fcfcfc', borderBottom: '1px solid #aaa' }}>
               <th style={{ padding: '1rem', borderRight: '1px solid #aaa', textAlign: 'center', width: '50%' }}>Feature</th>
