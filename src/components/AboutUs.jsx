@@ -17,7 +17,7 @@ const AboutUs = () => {
       <header className="container" style={{ padding: '2rem 0' }}>
         <h1>About Us</h1>
         <p>
-          Welcome to <a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)' }}>JaiClub.games</a>, your premier destination for clear and actionable insights into the <a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)' }}>Jai Club</a> ecosystem. We are committed to helping users navigate the platform with confidence, covering everything from account setup and login to exploring the latest app features.
+          Welcome to <a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)' }}>jaiclub0.club</a>, the ultimate digital manual for the <a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)' }}>Jai Club</a> community. We are dedicated to providing players with precise, expert-level insights into the platform's features, ensuring your journey from registration to gameplay is smooth and well-informed.
         </p>
       </header>
 
@@ -28,39 +28,39 @@ const AboutUs = () => {
       <section className="container" id="Who_We_Are">
         <div className="gradient-banner">Who We Are</div>
         <p>
-          <a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)' }}>JaiClub.games</a> functions as an independent information hub tailored for players seeking straightforward and precise guidance on <a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)' }}>Jai Club</a>. We offer structured tutorials, platform deep-dives, and practical tips to ensure both newcomers and seasoned users can make the most of their experience.
+          <a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)' }}>jaiclub0.club</a> is an independent educational platform designed to empower <a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)' }}>Jai Club</a> enthusiasts. Our team focuses on delivering structured tutorials and deep-dive analysis, making it easier for both new and experienced users to master the platform's dynamics.
         </p>
       </section>
 
       <section className="container" id="What_We_Offer">
         <div className="gradient-banner">What We Offer</div>
-        <p>At <a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)' }}>JaiClub.games</a>, our priority is providing high-quality, easy-to-digest content that includes:</p>
+        <p>At <a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)' }}>jaiclub0.club</a>, we specialize in high-quality, actionable content including:</p>
         <ul style={{ paddingLeft: '20px', marginBottom: '20px' }}>
-          <li>Walkthroughs for portal access and signup</li>
-          <li>Detailed app procurement and setup tutorials</li>
-          <li>Overviews of game types and mechanics</li>
-          <li>Key details on funding and retrieval of balances</li>
-          <li>Insights into the referral and rewards network</li>
-          <li>Best practices for an optimized user journey</li>
+          <li>Complete signup and secure login walkthroughs</li>
+          <li>Comprehensive app installation and configuration guides</li>
+          <li>Expert overviews of diverse game formats and rules</li>
+          <li>Essential knowledge on funding and account management</li>
+          <li>Strategic insights into the referral and bonus structures</li>
+          <li>Optimized tips for a superior and secure user experience</li>
         </ul>
-        <p>Our resources are crafted with the user in mind—optimized for clarity and updated frequently to reflect the most current platform developments.</p>
+        <p>Every piece of content is meticulously researched and updated to stay in sync with the latest platform innovations.</p>
       </section>
 
       <section className="container" id="Our_Purpose">
         <div className="gradient-banner">Our Purpose</div>
-        <p>We strive to demystify complex systems and offer dependable resources for those exploring <a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)' }}>Jai Club</a>. Our objective is to build a supportive community where participants can find the guidance they need without any ambiguity.</p>
+        <p>We aim to eliminate confusion by offering the most reliable and thorough resources for anyone exploring <a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)' }}>Jai Club</a>. Our mission is to foster a well-informed community where every participant can enjoy the platform with absolute clarity.</p>
       </section>
 
       <section className="container" id="Important_Disclaimer">
         <div className="gradient-banner">Important Disclaimer</div>
         <p>
-          Please be aware that <a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)' }}>JaiClub.games</a> is <strong>not the official <a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)' }}>Jai Club hub</a></strong> and does not facilitate gaming transactions or services directly. We do not host games on this site; our mission is entirely educational and informational.
+          It is important to note that <a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)' }}>jaiclub0.club</a> is <strong>not the official <a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)' }}>Jai Club platform</a></strong>. We do not host games, process payments, or provide direct gaming services. Our purpose is purely educational and informational for the gaming community.
         </p>
       </section>
 
       <section className="container" id="Responsible_Use">
         <div className="gradient-banner">Responsible Use</div>
-        <p>We urge all participants to interact with the platform mindfully. Always maintain a balanced approach to gaming and respect your own predetermined limits.</p>
+        <p>We strongly advocate for mindful interaction with gaming ecosystems. We encourage all users to maintain a balanced lifestyle and always respect their personal and financial boundaries.</p>
       </section>
 
       <section className="container" id="Contact_Us" style={{ paddingBottom: '30px' }}>
@@ -72,7 +72,7 @@ const AboutUs = () => {
       <div className="container">
         <hr style={{ border: 'none', borderTop: '1px solid #ddd', margin: '40px 0 30px' }} />
         <p style={{ fontSize: '15px', color: '#333' }}>
-          We appreciate your visit to <a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)', textDecoration: 'none' }}>JaiClub.games</a>. Our team is here to ensure you stay well-informed and enjoy a streamlined gaming journey.
+          Thank you for choosing <a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)', textDecoration: 'none' }}>jaiclub0.club</a>. Our dedicated team is committed to keeping you informed and helping you navigate your gaming journey with ease.
         </p>
       </div>
       <Footer />

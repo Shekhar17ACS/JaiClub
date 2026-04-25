@@ -21,7 +21,7 @@ const Hero = () => {
           color: '#444',
           marginBottom: '2rem'
         }}>
-          Experience the ultimate online gaming destination at <a href="https://jaiclub0.club/" style={{ color: '#2196f3', fontWeight: 'bold' }}>Jai Club</a>, a secure and reliable platform where you can enjoy a wide range of popular titles like <strong>Wingo, K3, 5D, Poker, Slots, and Aviator</strong>. By participating in these skill-based games, users can earn impressive real-world rewards. Simply perform a <a href="https://www.jaiclub41.com/#/register?invitationCode=57233103761" style={{ color: '#2196f3', textDecoration: 'underline' }}>Jai Club login</a> to start testing your luck and strategic skills while unlocking exciting prizes and bonuses.
+          Experience the ultimate online gaming destination at <a href="https://jaiclub0.club/" style={{ color: '#2196f3', fontWeight: 'bold' }}>Jai Club</a>, a secure and reliable platform where you can enjoy a wide range of popular titles like <strong>Wingo, K3, 5D, Poker, Slots, and Aviator</strong>. By participating in these skill-based games, users can earn impressive real-world rewards. Simply perform a <a href="https://jaiclub0.club/" style={{ color: '#2196f3', textDecoration: 'underline' }}>Jai Club login</a> to start testing your luck and strategic skills while unlocking exciting prizes and bonuses.
         </p>
 
         <a href="https://www.jaiclub41.com/#/register?invitationCode=57233103761" style={{ textDecoration: 'none' }}>

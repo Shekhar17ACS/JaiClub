@@ -31,7 +31,7 @@ const FeaturesDetailTable = () => {
       </a>
       
       <p style={{ fontSize: '1rem', lineHeight: '1.6', color: '#444', marginBottom: '2rem' }}>
-        Explore this detailed resource to master the <strong><a href="https://www.jaiclub41.com/#/register?invitationCode=57233103761" style={{ color: '#2196f3', fontWeight: 'bold' }}>Jai Club login</a></strong> sequence, set up your account, and perform the <strong>app installation</strong>. We also provide insights into <strong>key platform functionalities, earning avenues, and protected withdrawal processes</strong>.
+        Explore this detailed resource to master the <strong><a href="https://jaiclub0.club/" style={{ color: '#2196f3', fontWeight: 'bold' }}>Jai Club login</a></strong> sequence, set up your account, and perform the <strong>app installation</strong>. We also provide insights into <strong>key platform functionalities, earning avenues, and protected withdrawal processes</strong>.
       </p>
 
       <div className="table-responsive" style={{ border: '1px solid #aaa', borderRadius: '4px' }}>

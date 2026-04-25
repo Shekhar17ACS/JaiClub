@@ -271,9 +271,9 @@ function App() {
         <Route path="/" element={
           <main style={{ flex: 1, display: 'flex', flexDirection: 'column', paddingTop: '10px' }}>
             <header className="container" id="Jai_Club_Login" style={{ padding: '2rem 0' }}>
-              <h1><a href="https://www.jaiclub41.com/#/register?invitationCode=57233103761" style={{ color: 'inherit', textDecoration: 'none' }}>Jai Club Login</a></h1>
+              <h1><a href="https://jaiclub0.club/" style={{ color: 'inherit', textDecoration: 'none' }}>Jai Club Login</a></h1>
               <p style={{ fontSize: '1.1rem' }}>
-                At its core, <strong><a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)' }}>Jai Club</a> provides a highly secure gaming environment</strong> where members can engage with popular options like <strong>Wingo, K3, 5D, Poker, Slots, and Aviator</strong>. By leveraging your gaming skills, you can earn substantial rewards. With a quick <strong><a href="https://www.jaiclub41.com/#/register?invitationCode=57233103761" style={{ color: 'var(--text-blue)' }}>Jai Club login</a></strong>, you can explore various entertaining challenges and aim for exclusive prizes.
+                At its core, <strong><a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)' }}>Jai Club</a> provides a highly secure gaming environment</strong> where members can engage with popular options like <strong>Wingo, K3, 5D, Poker, Slots, and Aviator</strong>. By leveraging your gaming skills, you can earn substantial rewards. With a quick <strong><a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)' }}>Jai Club login</a></strong>, you can explore various entertaining challenges and aim for exclusive prizes.
               </p>
             </header>
 
@@ -291,7 +291,7 @@ function App() {
                 <a href="https://www.jaiclub41.com/#/register?invitationCode=57233103761" className="btn-primary">Register Download</a>
               </div>
               <p>
-                This comprehensive resource is designed for anyone looking to master the <strong><a href="https://www.jaiclub41.com/#/register?invitationCode=57233103761" style={{ color: 'var(--text-blue)' }}>Jai Club login</a></strong> process, complete account registration, and perform the <strong>app download</strong>. Here, you'll find tutorials on <strong>platform features, earning structures, and secure withdrawal methods</strong> to ensure a seamless experience.
+                This comprehensive resource is designed for anyone looking to master the <strong><a href="https://jaiclub0.club/" style={{ color: 'var(--text-blue)' }}>Jai Club login</a></strong> process, complete account registration, and perform the <strong>app download</strong>. Here, you'll find tutorials on <strong>platform features, earning structures, and secure withdrawal methods</strong> to ensure a seamless experience.
               </p>
             </section>
 
@@ -348,7 +348,7 @@ function App() {
             </section>
 
             <section className="container" id="Jai_Club_Login_How_to_Sign_In">
-              <h2>Accessing Your Account – <a href="https://www.jaiclub41.com/#/register?invitationCode=57233103761" style={{ color: 'inherit', textDecoration: 'none' }}>Jai Club Login</a></h2>
+              <h2>Accessing Your Account – <a href="https://jaiclub0.club/" style={{ color: 'inherit', textDecoration: 'none' }}>Jai Club Login</a></h2>
               <p>Accessing the <strong>Jai Club Lottery Game</strong> ecosystem is a straightforward process. If you already possess an account, simply use the following steps to get back into the action:</p>
               <div style={{ textAlign: 'center', margin: '2rem 0' }}>
                 <img
